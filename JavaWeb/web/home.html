@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bazinga!</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/home-file-sys.css">
+    <!--<link rel="stylesheet" href="http://at.alicdn.com/t/font_1502876_9jo2xv8exwf.css">-->
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1502876_g1mazm453g.css">
+    <script type="text/javascript" src="./javascript/jquery.min.js"></script>
+    <script type="text/javascript" src="./javascript/home.js"></script>
+    <script type="text/javascript" src="javascript/explorer.js"></script>
+    <script>
+        window.onload = function(){
+            updateTime();
+            setInterval(updateTime,1000);
+        }
+    </script>
+</head>
+<body>
+<div class="desktop">
+    <aside class="container">
+        <a href="/getFileSystemServlet" target="function_frame"> <i class="icon iconfont icon-icon_folder " style="color: lightblue"></i></a>
+        <a href="http://www.baidu.com" target="function_frame"><i class="icon iconfont icon-weixin"
+                                                           style="color: green"></i></a>
+        <a href="http://www.google.com" target="function_frame"><i class="icon iconfont icon-zuoye3"
+                                                           style="color: #1296db;"></i></a>
+        <a href="http://www.bazinga.pro" target="function_frame"><i class="icon iconfont icon-unie61d"
+                                                           style="color: #d81e06"></i></a>
+        <a href="ftp://bazinga.pro" target="function_frame"><i class="icon iconfont icon-qq" style="color: #f40"></i></a>
+        <a href="http://www.baidu.com" target="function_frame"><i class="icon iconfont icon-lunwen"
+                                                           style="color: #ccc"></i></a>
+        <a href="http://www.baidu.com" target="function_frame"><i class="icon iconfont icon-pachong"></i></a>
+        <a href="http://www.baidu.com" target="function_frame"><i class="icon iconfont icon-yiqi"></i></a>
+        <a href="http://www.baidu.com" target="function_frame"><i class="icon iconfont icon-zhongduan"></i></a>
+        <a href="./functions/english.html" target="function_frame"><i class="icon iconfont icon-yingyu"></i></a>
+    </aside>
+
+    <!---->
+    <header id="toolbar" data-text="1996-06-19 00:00:00">
+        <i class="iconfont icon-waiguanshezhi"></i>
+        <i class="iconfont icon-wangluo"></i>
+        <i class="iconfont icon-shezhi"></i>
+        <i class="iconfont icon-yonghu"></i>
+        <i class="iconfont icon-icon18"></i>
+
+    </header>
+
+    <div class="main">
+        <ol class="windows">
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+            <li>d</li>
+            <li>e</li>
+        </ol>
+        <iframe name="function_frame" frameborder="0" style="height: 100%;width: 100%;">Welcome,Bazinga!</iframe>
+    </div>
+</div>
+</body>
+</html>

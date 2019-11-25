@@ -1,0 +1,124 @@
+body{
+    background-color: #4d4a40;
+}
+.artical{
+    width: 90%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding-top: 30px;
+    line-height: 2;
+    border-bottom: solid 1px black;
+}
+.artical section p{
+    text-indent: 2em;
+}
+.question{
+    display: inline;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #bd2c00;
+    line-height: 1.5em;
+}
+.artical header{
+    background-color: #267890;
+    text-align: center;
+    margin-bottom: 30px;
+    border: solid 5px #14414e;
+    margin-left: -34px;
+    margin-right: -34px;
+}
+
+.artical header h1{
+    font-size: 42px;
+    color: #fff;
+}
+.artical header .origin{
+    color: #dbdbdb;
+    margin-bottom: 30px;
+}
+.artical header a:hover{
+    color: #fff;
+}
+
+.artical::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.artical section{
+    width: 48%;
+    margin-bottom: 30px;
+}
+
+.artical-right{
+    float: right;
+}
+.artical-left{
+    float: left;
+}
+
+/* .artical-left::before ,.artical-right::before{
+    content: "";
+    width: 27%;
+    height: 300px;
+    border-bottom: 1px dotted black;
+}
+
+.artical-right::before{
+    float: left;
+}
+
+.artical-left::before{
+    float: right;
+} */
+
+.artical-left span,.artical-right span{
+    width: 28%;
+}
+
+.artical-left span{
+    float: right;
+}
+.artical-right span{
+    float: left;
+}
+.artical>a>img{
+    position: absolute;
+    width: 25%;
+    left: 37%;
+}
+
+span>img{
+    visibility: hidden;
+    width: 210%;
+}
+
+section::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+aside{
+    position: fixed;
+    width: 35%;
+    right: 0;
+    bottom: 10%;
+    color: #ccc;
+    font-size: 2em;
+    
+}
+
+aside>a{
+    display: inline-block;
+    width: 16%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    background-color: #f002;
+}
+
+aside>a:hover{
+    background-color: red;
+}

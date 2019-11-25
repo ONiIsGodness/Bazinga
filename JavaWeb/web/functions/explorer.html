@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Explorer</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1502876_9jo2xv8exwf.css">
+    <link rel="stylesheet" href="../css/home-file-sys.css">
+
+    <script src="../javascript/explorer.js"></script>
+    <style>
+        body, html {
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="explorer" id="explorer">
+    <header class="function">
+        <div class="close"><i class="iconfont icon-guanbi"></i></div>
+        <div class="min"><i class="iconfont icon-weibiaoti--"></i></div>
+        <div class="max"><i class="iconfont icon-zuidahua"></i></div>
+
+        <div class="message">
+            <div class="path">/home</div>
+            <div class="list"></div>
+        </div>
+    </header>
+    <div class="address">
+        <div class="action">
+            <div class="back"><i class="iconfont icon-houtui"></i></div>
+            <div class="forward"><i class="iconfont icon-DisclosureIndicator"></i></div>
+        </div>
+        <div class="addr">
+            <ul>
+                <li>第1级</li>
+                <li>第2级</li>
+                <li>第3级第1级第1级第1级第1级</li>
+                <li>第4级</li>
+            </ul>
+        </div>
+    </div>
+    <div class="view">
+        <ul class="files">
+            <li class="fold">
+                <a href="">
+                    <i class="iconfont icon-ziyuan"></i>
+                    <span class="file-name">文件夹1</span>
+                </a>
+            </li>
+
+            <li class="fold">
+                <a href="">
+                    <i class="iconfont icon-ziyuan"></i>
+                    <span class="file-name">文件夹2</span>
+                </a>
+            </li>
+            <li class="fold">
+                <a href="">
+                    <i class="iconfont icon-ziyuan"></i>
+                    <span class="file-name">文件夹3</span>
+                </a>
+            </li>
+            <li class="fold">
+                <a href="">
+                    <i class="iconfont icon-ziyuan"></i>
+                    <span class="file-name">文件夹4</span>
+                </a>
+            </li>
+            <li class="file">
+                <a href="">
+                    <i class="iconfont icon-wenjian"></i>
+                    <span class="file-name">文件1</span>
+                </a>
+            </li>
+            <li class="file">
+                <a href="">
+                    <i class="iconfont icon-wenjian"></i>
+                    <span class="file-name">文件2</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <aside>
+        <ul class="root iconfont icon-ziyuan">
+
+            <li><i class="iconfont icon-ziyuan"></i><span>文件夹1文件夹1文件夹1文件夹1文件夹1</span></li>
+            <li><i class="iconfont icon-ziyuan"></i><span>文件夹2</span>
+                <ul>
+                    <li><i class="iconfont icon-wenjian"></i><span>文件1</span></li>
+                    <li><i class="iconfont icon-wenjian"></i><span>文件2</span></li>
+                </ul>
+            </li>
+            <li><i class="iconfont icon-ziyuan"></i><span>文件夹3</span></li>
+            <li><i class="iconfont icon-ziyuan"></i><span>文件夹4</span></li>
+
+            <li><i class="iconfont icon-wenjian"></i><span>文件1</span></li>
+            <li><i class="iconfont icon-wenjian"></i><span>文件2</span></li>
+        </ul>
+    </aside>
+</div>
+</body>
+</html>
